@@ -1,2 +1,2 @@
-# FinalProject2Repository
-For final project.
+# FinalProject
+This is the Readme for my Final Project.
