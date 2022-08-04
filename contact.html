@@ -4,9 +4,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/contact.css">
+    <script src="https://kit.fontawesome.com/0fb673598b.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./media/logo.png" height="70px" width="70px" alt="nibroc logo">
+            </a>      
+        </div>
+
+        <ul>
+            <li><a href="./index.html" target="_blank">Home</a></li>
+            <li><a href="./about.html" target="_blank">About</a></li> 
+            <li><a href="./contact.html" target="_blank">Contact</a></li>
+        </ul>
+
+    </nav>
+    <section>
+        <aside>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26893.33504728552!2d166.64452959600533!3d-77.84011908529763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaf773973ada5b34d%3A0xe241f2716549c551!2sMcMurdo%20Station%2C%20Antarctica!5e0!3m2!1sen!2sus!4v1659417207821!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+        <aside>
+            <h2>Contact Us</h2><br>
+            <form action="https://formsubmit.co/corbinwhiting@gmail.com" method="POST">
+                <label for="name">Name:<br></label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:<br></label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:<br></label>
+                <textarea type="text" name="message" id="message" cols="30" rows="10" required></textarea><br>
+                <button type="submit">Send</button>
+           </form>
+        </aside>
+    </section>
+    <footer>
+        <a href="https://www.twitter.com" class="pinkLink"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com" class="pinkLink"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com" class="pinkLink"><i class="fa-brands fa-facebook"></i></a>
+        <p><span class="copyright">&copy; 2022 Corbin Whiting</span><br><span class="pink-color">(This is competely fictitious and nothing to worry about, promise.)</span></p>
+    </footer>
 </body>
 </html>
